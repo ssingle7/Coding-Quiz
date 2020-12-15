@@ -1,93 +1,64 @@
-# Coding-Quiz
+# Coding Quiz
 
-# 04 Web APIs: Code Quiz
+The coding quiz assessment was designed as a typical coding assessment with a combination of multiple-choice questions and interactive coding challenges. In becoming a full-stack web developer, an assessment is sometimes included in the interview process. This project allows you to apply your Javascript fundamental skills in a timed coding quiz that has been dynamically updated with HTML and CSS powered by JavaScript code.The result is that you can gauge your progress on what you have learned. 
 
-## Your Task
+-Created variables that would target that values that could inter change the values such as upper or lower case letters, numeric values, and the special characters. 
 
-As you proceed in your journey to becoming a full-stack web developer, it’s likely that you’ll be asked to complete a coding assessment, perhaps as part of an interview process. A typical coding assessment is a combination of multiple-choice questions and interactive coding challenges. 
+-Prompts were added to ask the user which variables they would like to have inputted into their random password. 
 
-To help you become familiar with these tests and give you a chance to apply the skills from this module, this week’s homework invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. This week’s coursework will teach you all the skills you need to succeed in this assignment.
+-Conditional statements were added so if the user chose one prompt over the other they could achieve the same result of a password chosen at random. 
 
+-A for loop was integrated to ensure that any of the intended characters could be selected given the specific criteria. 
 
-## User Story
+-A function was incorporated to ensure the return of a generated password. 
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+-An addEventListener method was also added to ensure once the user selected the generate password, the user could follow the prompt to yield the outcome of a random password. 
 
+# Installation
 
-## Acceptance Criteria
+To run this locally, fork the repo, clone it, and open the 'index.html' in your default browser.  
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
-```
+## Usage
 
+This application should be deployed within a browser and when the start button is selected for the quiz , the user should follow the prompts as they appear on the screen to select the correct answer 
 
-## Mock-Up
+### Credits
 
-The following animation demonstrates the application functionality:
+* Used Bootstrap's grid system, (containers, rows, and columns).
 
-![code quiz](./Assets/04-web-apis-homework-demo.gif)
+* W3 Schools 
 
+* 02-ask-the-class
 
-## Grading Requirements
+* Study Groups 
 
-This homework is graded based on the following criteria: 
+* 03-resources  
 
-### Technical Acceptance Criteria: 40%
+### Moc-Up
 
-* Satisfies all of the above acceptance criteria.
+![Password Generator](password.PNG)
 
-### Deployment: 32%
+### License 
 
-* Application deployed at live URL.
+Copyright (c) [2020] [Selena Singleton]
 
-* Application loads with no errors.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* Application GitHub URL submitted.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
-## Review
 
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
