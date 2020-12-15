@@ -1,21 +1,25 @@
 var timer; 
 var seconds =10;
 var buttonEl = document.getElementById("startBtn");
+//Before quiz starts timer should show time remmining 
+//When StartQuiz function fires welcome page is hidden and the question page is shown 
+//When startQuiz function fires the timer begins 
 
 
-function beginQuiz(event)
-event.preventDefault();
 
 
-buttonEl.addEventListener("click", StartQuiz)
     
-    function StartQuiz();
-if(storedScores !==null){
-    allScores = storedScores;
+function StartQuiz(){
+    startTimer();
+    // if(storedScores === null){
+    //     allScores = storedScores;
+    // }
 }
-startTimer();
+
+
+
 // showNextQuestion();
-});
+
 
 function startTimer(){
     timer = setInterval(function(){
@@ -32,6 +36,6 @@ function endGame(){
     alert("Time Ran Out!");
 }
 
-
+buttonEl.addEventListener("click", StartQuiz)
 
 
