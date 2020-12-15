@@ -8,10 +8,34 @@ var startPage = document.querySelector(".start-page")
 var currentQuestionIndex = 0;
 var questionsArray = [
     {
-        question: "What color is the sky?",
-        choices: ["a.grey", "b.purple", "c.red", "d.blue"],
-        correctAnswer: "d.blue"
-    }
+        question: "String values must be enclosed within_____ when being assigned to variables.",
+        choices: ["a.commas", "b.curly brackets", "c.quotes", "d.parenthesis"],
+        correctAnswer: "d.parenthesis"
+    }, 
+
+    {
+        question: "Arrays in Javascript can be used to store ________.",
+        choices: ["a.numbers and strings", "b.other arrays", "c.booleans", "d.all of the above"],
+        correctAnswer: "d.all of the above"
+    },
+    
+    {
+        question: "The condition in an if/ else statement is enclosed within ________",
+        choices: ["a.", "b.curly brackets", "c.quotes", "d.parenthesis"],
+        correctAnswer: "b.curly brackets"
+    },
+
+    {
+        question: "A very useful tool used during development and debugging for printing content to the debugger is:",
+        choices: ["a.Javascript", "b.terminal/bash", "c.for loops", "d.console log"],
+        correctAnswer: "d.console log"
+    }, 
+    
+    {
+        question: "The primary use of an array is to _________.",
+        choices: ["a.iterate over it", "b.log to console", "c.append to element", "d.create element"],
+        correctAnswer: "a.iterate over it"
+    },
 ] 
 var choicesArray = questionsArray[currentQuestionIndex].choices
 for (let i = 0; i < choicesArray.length; i++) {
