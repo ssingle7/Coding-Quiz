@@ -36,7 +36,7 @@ This application should be deployed within a browser and when the start button i
 
 ### Moc-Up
 
-![Password Generator](password.PNG)
+![Coding Quiz](Quiz.PNG)
 
 ### License 
 
