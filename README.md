@@ -10,7 +10,7 @@ The coding quiz assessment was designed as a typical coding assessment with a co
 
 -Arrays were added to house the questions and answers with a for loop to ensure that the next set of questions were displayed on the screen. 
 
--
+-Used DOM manipulation 
 
  
 
