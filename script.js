@@ -2,6 +2,8 @@ var timer;
 var seconds =10;
 var startBtn = document.getElementById("startBtn");
 var startPage = document.querySelector(".start-page")
+var quizQues = document.getElementById(".questions")
+
 //Before quiz starts timer should show time remaining 
 //When StartQuiz function fires welcome page is hidden and the question page is shown 
 //When startQuiz function fires the timer begins 
@@ -37,11 +39,24 @@ var questionsArray = [
         correctAnswer: "a.iterate over it"
     },
 ] 
+
+
+function startQues(){
+
+}
+
 var choicesArray = questionsArray[currentQuestionIndex].choices
 for (let i = 0; i < choicesArray.length; i++) {
     const element = choicesArray[i];
     console.log(element)
+    // var buttons = document.createElement("button")
+    // buttons.textContent = questionsArray[i]
+    // buttons.setAttribute("id", "button" + parseInt(i +1))
+    // buttons.setAttribute("style", "display:block; margin-bottom: 5px")
+
 }
+
+
 
 
 console.log(questionsArray[currentQuestionIndex].question)
