@@ -2,17 +2,15 @@
 
 The coding quiz assessment was designed as a typical coding assessment with a combination of multiple-choice questions and interactive coding challenges. In becoming a full-stack web developer, an assessment is sometimes included in the interview process. This project allows you to apply your Javascript fundamental skills in a timed coding quiz that has been dynamically updated with HTML and CSS powered by JavaScript code.The result is that you can gauge your progress on what you have learned. 
 
--Created variables that would target that values that could inter change the values such as upper or lower case letters, numeric values, and the special characters. 
+-Created separate files to house each of the HTML, CSS and javascript. 
 
--Prompts were added to ask the user which variables they would like to have inputted into their random password. 
+-Pseudo codes where used to determine what divs, elements, and functions would be required to build quiz assessment. 
 
--Conditional statements were added so if the user chose one prompt over the other they could achieve the same result of a password chosen at random. 
+-Added bootstrap component to HTML and added divs, ids, and classes to target these within the script.js file.
 
--A for loop was integrated to ensure that any of the intended characters could be selected given the specific criteria. 
+=
 
--A function was incorporated to ensure the return of a generated password. 
-
--An addEventListener method was also added to ensure once the user selected the generate password, the user could follow the prompt to yield the outcome of a random password. 
+ 
 
 # Installation
 
